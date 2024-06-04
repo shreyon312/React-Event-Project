@@ -1,0 +1,121 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 0.5em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.card-header{
+  text-align: left;
+  font-weight: bold;
+}
+
+.card-title{
+  text-align: left;
+}
+
+.card-text{
+  text-align: left;
+}
+
+.navbar-brand{
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.body-container{
+  width: 100%;
+}
+
+.form-select {
+  width: 20%;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-select:hover{
+  cursor: pointer;
+}
+
+.proceed{
+  width: 25%;
+}
+
+.caption-container{
+  margin-top: 17%;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container{
+  background-color: #4c4c4c;
+  text-align: center;
+  margin-bottom: 3%;
+  padding-top: 1.5%;
+  border-radius: 10px;
+}
+
+.content-container{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  padding-top: 6%;
+}
+
+.event-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  column-gap: 4vw;
+  flex-wrap: wrap;
+  row-gap: 4vh;
+  padding: 2.5%;
+}
+
+.form {
+  background-color: #f2f1ed;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+h3{
+  color: #f8f9fa;
+}
